@@ -172,5 +172,3 @@ simulation, and denitrification-oriented flux prediction.
 
 Users should also cite the original SuperCC publication and GitHub repository.
 
-SynComDesign is an independently maintained adaptation and is not an official
-release of the original SuperCC project.
