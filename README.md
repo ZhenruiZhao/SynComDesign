@@ -51,8 +51,7 @@ SynComDesign/
     runSynComDesign.m
     GetAllCombination.m
     src/
-  docs/
-    USER_MANUAL_CN.md
+   USER_MANUAL_CN.md
 ```
 
 Folder meanings:
@@ -68,7 +67,7 @@ Folder meanings:
 You need:
 
 1. MATLAB.
-2. COBRA Toolbox.
+2. COBRA Toolbox."https://opencobra.github.io/cobratoolbox/stable/installation.html"
 3. A COBRA-compatible LP solver, such as Gurobi or GLPK.
 
 Gurobi is recommended when available. GLPK can be used, but it may be less stable for some genome-scale models.
@@ -80,11 +79,11 @@ CarveMe and BiGG are not bundled with this repository. SynComDesign is compatibl
 Open MATLAB and move into the downloaded SynComDesign folder:
 
 ```matlab
-cd('D:\path\to\SynComDesign')
+cd('path\to\SynComDesign')
 addpath(genpath(pwd))
 ```
 
-Replace `D:\path\to\SynComDesign` with the actual path on your computer.
+Replace `path\to\SynComDesign` with the actual path on your computer.
 
 Initialize COBRA Toolbox and select a solver:
 
