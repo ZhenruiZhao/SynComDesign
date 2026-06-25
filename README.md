@@ -95,7 +95,7 @@ results = runSynComDesign('config/syncomdesign_config.yml');
 
 For a step-by-step Chinese beginner manual, see:
 
-- `docs/USER_MANUAL_CN.md`
+- `USER_MANUAL_CN.md`
 
 ## Output
 
