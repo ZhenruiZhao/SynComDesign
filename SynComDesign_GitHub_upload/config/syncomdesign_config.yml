@@ -1,0 +1,46 @@
+﻿project:
+  name: SynComDesign
+  output_dir: results
+
+models:
+  directory: models
+  file_pattern: "*.xml"
+  biomass_reactions_file: config/biomass_reactions.tsv
+  metabolite_aliases_file: config/metabolite_aliases.tsv
+
+combinations:
+  min_size: 1
+  max_size: null
+  required_species: []
+  excluded_species: []
+  enumerate_all: true
+  max_combinations: 100000
+
+medium:
+  file: media/medium.tsv
+  condition: anaerobic
+  close_unlisted_uptakes: true
+
+community:
+  require_all_species_active: true
+  minimum_biomass_flux: 1.0e-6
+  shared_environment_compartment: u
+
+objective:
+  scenario_id: 1
+  growth_fraction: 0.9
+  target_strain: null
+  biomass_weights: equal
+
+analysis:
+  run_fva: true
+  fva_fraction_of_optimum: 90
+  save_community_models: false
+  continue_on_error: true
+
+solver:
+  name: gurobi
+  feasibility_tolerance: 1.0e-9
+  optimality_tolerance: 1.0e-9
+
+
