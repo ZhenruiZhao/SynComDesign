@@ -53,7 +53,7 @@ Open MATLAB, move into the project directory, and add the folder to the MATLAB
 path:
 
 ```matlab
-cd('D:\path\to\SynComDesign')
+cd('path\to\SynComDesign')
 addpath(genpath(pwd))
 ```
 
