@@ -309,13 +309,13 @@ Use this mode to find the combination with the highest total predicted growth.
 ```yaml
 objective:
   scenario_id: 2
-  target_strain: E10
+  target_strain: 005
 ```
 
 Use this mode when you care about one specific strain. The target strain name must match the model file name. For `E10.xml`, use:
 
 ```yaml
-target_strain: E10
+target_strain: 005
 ```
 
 SynComDesign automatically evaluates only combinations that contain the target strain.
