@@ -296,7 +296,7 @@ The metabolite alias file is:
 config/metabolite_aliases.tsv
 ```
 
-It tells SynComDesign which model IDs correspond to nitrate, nitrite, NO, N<sub>2</sub>O, and N2.
+It tells SynComDesign which model IDs correspond to nitrate, nitrite, NO, N<sub>2</sub>O, and N<sub>2</sub>.
 
 Example:
 
